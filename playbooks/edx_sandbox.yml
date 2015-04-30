@@ -21,6 +21,7 @@
     ENABLE_LEGACY_ORA: !!null
     EDXAPP_USE_MICROSITES: true
     EDXAPP_MICROSITE_ROOT_DIR: "{{ edxapp_app_dir }}/edx-microsites"
+    EDXAPP_EDVERA_SYSTEM_TOKEN: "placeholder"
     EDXAPP_MICROSITE_CONFIGURATION:
       wqu:
         domain_prefix: "wqu"

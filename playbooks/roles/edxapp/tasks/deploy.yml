@@ -41,6 +41,17 @@
   - "restart edxapp"
   - "restart edxapp_workers"
 
+# Do A Checkout
+- name: checkout edx-microsites repo into {{ edxapp_app_dir }}/edx-microsites
+  git: >
+    dest={{ edxapp_app_dir }}/edx-microsites
+    repo={{ edx_microsites_repo }}
+    version=master
+    accept_hostkey=yes
+  sudo_user: "{{ edxapp_user }}"
+  environment:
+    GIT_SSH: "{{ edxapp_git_ssh }}"
+
 - name: git clean after checking out edx-platform
   shell: cd {{ edxapp_code_dir }} && git clean -xdf
   sudo_user: "{{ edxapp_user }}"
