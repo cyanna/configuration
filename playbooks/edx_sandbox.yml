@@ -28,6 +28,7 @@
         SITE_NAME: "wqu.edx.astea"
         platform_name: "WorldQuant University"
         css_overrides_file: "no-wrappers.css"
+        logo_image_url: "wqu/images/logo.png"
 
   roles:
     - role: nginx

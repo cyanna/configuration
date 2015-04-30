@@ -112,7 +112,7 @@ EDXAPP_ENABLE_AUTO_AUTH: false
 # Settings for enabling and configuring third party authorization
 EDXAPP_ENABLE_THIRD_PARTY_AUTH: false
 EDXAPP_THIRD_PARTY_AUTH: {}
-EDXAPP_USE_MICROSITES: false
+EDXAPP_USE_MICROSITES: true
 
 EDXAPP_MODULESTORE_MAPPINGS:
     'preview\.': 'draft-preferred'
