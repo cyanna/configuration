@@ -26,10 +26,17 @@
       wqu:
         domain_prefix: "wqu"
         university: "wqu"
-        SITE_NAME: "wqu.edx.astea"
+        SITE_NAME: "wqu.edx.cyanna.com"
+        platform_name: "WorldQuant University"
+        css_overrides_file: "wqu/css/style.css"
+        logo_image_url: "wqu/images/logo.png"
+      wquiframe:
+        domain_prefix: "wquiframe"
+        university: "wquiframe"
+        SITE_NAME: "wquiframe.edx.cyanna.com"
         platform_name: "WorldQuant University"
         css_overrides_file: "no-wrappers.css"
-        logo_image_url: "wqu/images/logo.png"
+        logo_image_url: "wquiframe/images/logo.png"
 
   roles:
     - role: nginx
