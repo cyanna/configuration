@@ -23,13 +23,13 @@
     EDXAPP_MICROSITE_ROOT_DIR: "{{ edxapp_app_dir }}/edx-microsites"
     EDXAPP_EDVERA_SYSTEM_TOKEN: "placeholder"
     EDXAPP_MICROSITE_CONFIGURATION:
-      wqu:
-        domain_prefix: "wqu"
-        university: "wqu"
-        SITE_NAME: "wqu.edx.cyanna.com"
+      learn:
+        domain_prefix: "learn"
+        university: "learn"
+        SITE_NAME: "learn.worldquantuniversity.org"
         platform_name: "WorldQuant University"
-        css_overrides_file: "wqu/css/style.css"
-        logo_image_url: "wqu/images/logo.png"
+        css_overrides_file: "learn/css/style.css"
+        logo_image_url: "learn/images/logo.png"
       iframewqu:
         domain_prefix: "iframewqu"
         university: "iframewqu"
