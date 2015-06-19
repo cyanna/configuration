@@ -17,6 +17,8 @@
     NGINX_SET_X_FORWARDED_HEADERS: True
     # These should stay false for the public AMI
     COMMON_ENABLE_DATADOG: False
+    EDXAPP_LMS_BASE: "edx.cyanna.com"
+    EDXAPP_PREVIEW_LMS_BASE: "edx.cyanna.com"
     COMMON_ENABLE_SPLUNKFORWARDER: False
     ENABLE_LEGACY_ORA: !!null
     EDXAPP_USE_MICROSITES: true
