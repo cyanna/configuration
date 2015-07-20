@@ -26,4 +26,4 @@ sudo ldconfig
 #pip install --upgrade setuptools
 
 # deploy
-sudo ansible-playbook -c local ./edx_sandbox.yml -i "localhost," -e edx_platform_repo=https://github.com/cyanna/edx-platform.git -e edx_platform_version='astea-30Apr'
+sudo ansible-playbook -c local ./edx_sandbox.yml -i "localhost," -e edx_platform_repo=https://github.com/cyanna/edx-platform.git -e edx_platform_version='cyanna-release'
