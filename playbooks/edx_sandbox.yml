@@ -32,6 +32,13 @@
         platform_name: "WorldQuant University"
         css_overrides_file: "learn/css/style.css"
         logo_image_url: "learn/images/logo.png"
+      learn-edx:
+        domain_prefix: "learn-edx"
+        university: "learn-edx"
+        SITE_NAME: "learn-edx.worldquantuniversity.org"
+        platform_name: "WorldQuant University"
+        css_overrides_file: "learn/css/style.css"
+        logo_image_url: "learn/images/logo.png"
       iframewqu:
         domain_prefix: "iframewqu"
         university: "iframewqu"
