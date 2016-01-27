@@ -59,7 +59,7 @@ forum_environment:
 forum_user: "forum"
 forum_ruby_version: "1.9.3-p448"
 forum_source_repo: "https://github.com/edx/cs_comments_service.git"
-forum_version: "master"
+forum_version: "339fd755d3b781ba30d436f51ba0bd4d60e8d9cc"
 
 #
 # test config
