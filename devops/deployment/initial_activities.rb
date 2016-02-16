@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-require 'aws-idempotency', '>= 0.0.1'
+require 'aws-idempotency'
 
 $:.unshift File.expand_path('../lib', File.dirname(__FILE__))
 require 'config'
@@ -10,8 +10,11 @@ require 'pp'
 
 begin
 
-  es = ElasticSearch.ensure(elasticsearch_domain)
+  ElasticSearch.ensure(elasticsearch_domain)
 
+  endpoint = ElasticSearch.ensure_endpoint_available(elasticsearch_domain)
+
+  puts endpoint
 
   puts "Ok"
 rescue Aws::AutoScaling::Errors::ServiceError => e
