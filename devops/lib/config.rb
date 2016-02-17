@@ -1,5 +1,5 @@
 def application
-  'EDx'
+  'edX'
 end
 
 def environment
